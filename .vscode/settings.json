@@ -2,8 +2,11 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.formatting.provider": "black",
+    "python.linting.mypyEnabled": false,
+    "python.formatting.provider": "none",
     "python.linting.lintOnSave": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
